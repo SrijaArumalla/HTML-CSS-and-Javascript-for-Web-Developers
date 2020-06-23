@@ -31,17 +31,17 @@ h1{
     text-transform: capitalize;
     font-size: 20px;
 }
-.color1{
+.c1{
     background-color: #d59898;
 }
-.color2{
+.c2{
     background-color: #c14543;
     /*color: #fff;*/
 }
-.color3{
+.c3{
     background-color: #e5d198;
 }
-.body{
+.p1{
     font-family: cursive;
     padding: 43px 10px 10px;
 }
@@ -50,7 +50,7 @@ h1{
     .wrapper{
         width: calc(50% - 27px) ;
     }
-    .card3{
+    .card{
         width: auto;
     }
 }
