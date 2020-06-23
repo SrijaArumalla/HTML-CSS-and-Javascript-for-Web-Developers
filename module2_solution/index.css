@@ -3,14 +3,15 @@
 }
 h1{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    font-family: cursive;
 }
 .border{
     border: 2px solid black;
 }
 .wrapper{
     width: calc(33.333% - 27px) ;
-    margin: 0 10px 20px 10px;
+    margin: 40px 10px 20px 10px;
     background-color: #999;
     position: relative;
     display: inline-block;
@@ -19,15 +20,15 @@ h1{
 .title{
     padding: 4px 0;
     border-top: none;
-    border-right: none;
-    display: inline;
+    border-right:none; 
+    /*display: inline;*/
     position: absolute;
     right: 0;
+    font-family: cursive;
     font-weight: bold;
     text-align: center;
     width: 145px;
     text-transform: capitalize;
- 
     font-size: 20px;
 }
 .color1{
@@ -35,12 +36,13 @@ h1{
 }
 .color2{
     background-color: #c14543;
-    color: #fff;
+    /*color: #fff;*/
 }
 .color3{
     background-color: #e5d198;
 }
 .body{
+    font-family: cursive;
     padding: 43px 10px 10px;
 }
 @media all and (max-width: 991px)
