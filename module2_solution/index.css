@@ -1,62 +1,71 @@
-.container{
-    width: 100%;
+*{
+    box-sizing: border-box;
 }
 h1{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     font-family: cursive;
 }
-.border{
-    border: 2px solid black;
-}
-.wrapper{
-    width: calc(33.333% - 27px) ;
-    margin: 40px 10px 20px 10px;
-    background-color: #999;
+p{
+    padding: 15px 5px 0px 5px;
+    font-family: cursive;
+    font-size: 16px;
     position: relative;
-    display: inline-block;
-   
 }
-.title{
-    padding: 4px 0;
-    border-top: none;
-    border-right:none; 
-    /*display: inline;*/
-    position: absolute;
-    right: 0;
-    font-family: cursive;
-    font-weight: bold;
-    text-align: center;
-    width: 145px;
-    text-transform: capitalize;
+.s{
+    background-color: rgb(150,150,150);
+    border: 2px solid black;
+    padding: 3px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+span{
     font-size: 20px;
-}
-.c1{
-    background-color: #d59898;
-}
-.c2{
-    background-color: #c14543;
-    /*color: #fff;*/
-}
-.c3{
-    background-color: #e5d198;
-}
-.p1{
     font-family: cursive;
-    padding: 43px 10px 10px;
+    width: 150px;
+    border:1px solid black;
+    text-align: center;
+    float: right; 
+    top:0;
+    right: 0;
+    margin:0;
+    position: absolute;
 }
-@media all and (max-width: 991px)
-{
-    .wrapper{
-        width: calc(50% - 27px) ;
-    }
-    .card{
-        width: auto;
+#i1{
+    background-color: #FF9999;
+
+}
+#i2{
+    background-color: #FF0000;
+}
+#i3{
+    background-color: #A52A2A;
+}
+.container{
+    width: 100%;
+}
+
+@media (min-width: 992px){
+    .col-lg-4{
+        width:33.33%;
+        float: left;
     }
 }
-@media all and (max-width: 768px)
-{
-    .wrapper{
-        width: auto;
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        width:50%;
+        float: left;
     }
-   
+    .col-md-12{
+        width: 100%;
+        float: left;
+
+    }
+}
+@media (min-width: 767px){
+    .col-sx-12{
+        width:100%;
+        float:left;
+    }
+}
